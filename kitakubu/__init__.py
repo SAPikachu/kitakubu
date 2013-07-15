@@ -17,7 +17,7 @@ from oauth2client.client import OAuth2WebServerFlow
 from oauth2client.tools import run as run_oauth
 
 OAUTH_SCOPES = [
-    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive",
     "https://www.googleapis.com/auth/drive.scripts",
 ]
 
