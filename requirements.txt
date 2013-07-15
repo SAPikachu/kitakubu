@@ -1,0 +1,2 @@
+google-api-python-client
+keyring>=1.6
