@@ -1,0 +1,5 @@
+{
+    "script_files": ["*.gs"],
+    "secret_config": ".kitakubu.secret",
+    "file_id": "YOUR FILE ID HERE"
+}
