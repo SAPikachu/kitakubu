@@ -103,7 +103,7 @@ def build_service(config):
 
 
 def download_files(service, file_meta):
-    url = file_meta["exportLinks"]["application/json"]
+    _, url = dict(file_meta["exportLinks"]).popitem()
     resp, content = service._http.request(url)
     content_obj = json.loads(content)
     return content_obj["files"]
